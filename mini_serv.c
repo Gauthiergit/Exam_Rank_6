@@ -24,7 +24,7 @@ void send_to_all(char *mess, int server, int client, int fd_max)
 
 int main(int argc, char**argv)
 {
-    int server, client, bytes_read, fd_max, max_client[65000] = {0}, id = 0;
+    int server, client, bytes_read, fd_max, max_client[65565] = {0}, id = 0;
     fd_set all_fds, temp_fds;
     struct sockaddr_in servaddr;
     char mess_to_send[400000];
