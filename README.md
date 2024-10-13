@@ -6,6 +6,8 @@ So we can confirm understanding of this function:
 
 -select() ou poll() for the managment of multiple clients.
 
--band() and listen() for prepare the server welcome some clients.
+-bind() and listen() for prepare the server welcome some clients.
+
+-accept() to add some new client in our server.
 
 -send() and recv() for send or receave some message from connected clients and diffuse it to other clients.
