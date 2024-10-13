@@ -16,7 +16,7 @@ and
 ./aout "port"
 ````
 
-Now you can use nc to simulate a cient and on others terminal to start a conversation:
+Now you can use nc to simulate a cient on others terminal to start a conversation:
 ````sh
 nc localhost "port"
 ````
